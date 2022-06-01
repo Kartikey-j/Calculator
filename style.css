@@ -4,11 +4,15 @@
 div#calculator{
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
-    height: 300px;
+    width: 290px;
+    height: 290px;
     border: 1px solid black;
     border-radius: 5px;
-    margin:200px auto ;
+    margin:50px auto ;
+}
+
+div#calculator{
+    background-color: rgb(200, 198, 198);
 }
 
 div#first-row{
@@ -22,40 +26,15 @@ div#first-row{
 
 button
 {
-    margin: 3px 2px;
+    margin: 2px 1px;
     width: 20%;
     height: 15%;
     flex-basis: 24%;
-    border: 2px solid rgb(205, 204, 204) ;
+    border: 3px solid rgb(238, 164, 27) ;
     border-radius: 6px;
-    background-color: rgb(205, 204, 204);
-}
-
-div#calculator{
-    background-image: linear-gradient(
-  45deg,
-  hsl(240deg 20% 32%) 0%,
-  hsl(228deg 27% 33%) 3%,
-  hsl(219deg 35% 34%) 6%,
-  hsl(212deg 46% 33%) 10%,
-  hsl(205deg 62% 32%) 14%,
-  hsl(198deg 100% 27%) 19%,
-  hsl(197deg 100% 28%) 24%,
-  hsl(196deg 100% 29%) 31%,
-  hsl(194deg 100% 30%) 38%,
-  hsl(192deg 100% 30%) 47%,
-  hsl(190deg 100% 30%) 56%,
-  hsl(187deg 100% 30%) 65%,
-  hsl(183deg 100% 29%) 73%,
-  hsl(179deg 100% 29%) 79%,
-  hsl(174deg 100% 30%) 84%,
-  hsl(170deg 100% 31%) 89%,
-  hsl(165deg 100% 32%) 92%,
-  hsl(161deg 100% 33%) 95%,
-  hsl(153deg 82% 38%) 97%,
-  hsl(137deg 49% 47%) 99%,
-  hsl(117deg 40% 52%) 100%
-);
+    background-color: rgba(238, 164, 27, 0.908);
+    color: white;
+    font-size: 18px;
 }
 
 input#display{
@@ -63,8 +42,10 @@ input#display{
     font-size: 25px;
     font-weight: 400;
     margin: 12px 0px;
-    background-color: rgb(205, 204, 204);
     border: 0;
+    border-radius: 3px;
+    height: 100%;
+    margin: 0px 0px;
 }
 
 div#input-field{
@@ -72,5 +53,10 @@ div#input-field{
 }
 
 button#AC{
-    width: 88%;
+    width: 65%;
+}
+
+h1{
+    margin-top: 50px;
+
 }

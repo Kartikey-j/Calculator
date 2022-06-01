@@ -19,8 +19,3 @@ Array.from(buttons).forEach((button)=>{
   })
 })
 
-const backspaceBtn = document.getElementById('backspace')
-
-function erase(){
-    display = display.split(" ")
-}
